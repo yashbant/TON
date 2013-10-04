@@ -1,0 +1,140 @@
+html {
+   -webkit-text-size-adjust: none;
+}
+
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	/* -------------------------------------------- */
+	/* ------------------Header-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Content------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Footer-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Other----------------*---- */
+	
+}
+
+@media only screen and (max-width: 767px) {
+	/* -------------------------------------------- */
+	/* ------------------Header-------------------- */
+	header {margin-top: 0px;height:125px;}
+	header #logo{top:10px;}
+	.menu{display:none;}
+	.minimenu{display:block;}
+	
+	/* -------------------------------------------- */
+	/* ------------------Featured------------------ */
+	
+	/* -------------------------------------------- */
+	/* ------------------Content------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Footer-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Other----------------*---- */
+}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	/* -------------------------------------------- */
+	/* ------------------Header-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Content------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Footer-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Other----------------*---- */
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	/* -------------------------------------------- */
+	/* ------------------Header-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Content------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Footer-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Other----------------*---- */
+}
+
+@media only screen and (max-width: 479px) {
+	/* -------------------------------------------- */
+	/* ------------------Header-------------------- */
+	header{height: 125px;}
+	header #logo{top:10px;}
+	header #search{bottom: 15px; width: 230px; top:auto; left: 5px;}
+	header #search input{width: 194px;}
+
+	.menu{display:none;}
+	.minimenu{display:block;}
+	
+	#main-content .comment input, #main-content .comment textarea{width:90%;}
+	/* -------------------------------------------- */
+	/* ------------------Content------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Footer-------------------- */
+	
+	/* -------------------------------------------- */
+	/* ------------------Other----------------*---- */
+}
+/* ------------------Quiz-------------------- */
+.answers li {
+list-style: upper-alpha;
+}
+
+label {
+margin-left: 0.5em;
+cursor: pointer;
+}
+
+#results {
+background: #dddada;
+color: 000000;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#results:hover {
+background: #3d91b8;
+color: #ffffff;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#categorylist {
+margin-top: 6px;
+display: none;
+}
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
+display: none;
+}
